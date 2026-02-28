@@ -1,0 +1,107 @@
+
+
+// JSON Array Of Object for supabase____________________________________
+const doctorsData = [
+    {
+        Doctor: {
+            Name: "Dr. Ali",
+            Days: ["Monoday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            Timings: {
+                "Time1": "8:00AM - 1:00PM",
+                "Time2": "1:00PM - 5:30PM"
+            }
+        }
+    },
+    {
+        Doctor: {
+            Name: "Dr. Ayesha",
+            Days: ["Monoday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            Timings: {
+                "Time1": "8:00AM - 1:00PM",
+                "Time2": "1:00PM - 5:30PM"
+            }
+        }
+    },
+    {
+        Doctor: {
+            Name: "Dr. Ahmed",
+            Days: ["Monoday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            Timings: {
+                "Time1": "8:00AM - 1:00PM",
+                "Time2": "1:00PM - 5:30PM"
+            }
+        }
+    },
+    {
+        Doctor: {
+            Name: "Dr. Rehan",
+            Days: ["Monoday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            Timings: {
+                "Time1": "8:00AM - 1:00PM",
+                "Time2": "1:00PM - 5:30PM"
+            }
+        }
+    },
+    {
+        Doctor: {
+            Name: "Dr. Sara",
+            Days: ["Saturday", "Sunday"],
+            Timings: {
+                "Time1": "9:30AM - 1:00PM",
+                "Time2": "1:00PM - 5:30PM"
+            }
+        }
+    },
+    {
+        Doctor: {
+            Name: "Dr. Salman",
+            Days: ["Saturday", "Sunday"],
+            Timings: {
+                "Time1": "9:30AM - 1:00PM",
+                "Time2": "1:00PM - 5:30PM"
+            }
+        }
+    }
+]
+
+
+
+    // for (let i = 0; i < Data.length; i++) {
+    //     const docs = Data[i];
+    //     const { Doctor: { Days, Name, Timings: { Time1, Time2 } } } = docs
+    //     // console.log(`
+    //     //     Names = ${Name}
+    //     //     Days = ${Days[i]}
+    //     //     Timings = ${Time1, Time2}
+    //     //     `)
+
+    //     doctors += `
+    //     <option value="${Name[i]}">${Name}</option>
+    //     `
+    //     console.log('run');
+
+
+    // }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        day.addEventListener('change', event => {
+        finalDay = event.target.value;
+        // console.log(finalDay);
+    });
+

@@ -1,0 +1,17 @@
+CareNest/
+│
+├── index.html              → Home Page
+├── booking.html            → Book Appointment Page
+├── my-appointments.html    → My Appointments Page
+├── login.html              → Login / Signup Page
+│
+├── css/
+│   └── style.css           → Main styles
+│
+├── js/
+│   ├── main.js             → Shared scripts (like nav, auth state)
+│   └── booking.js          → Appointment form logic
+│
+└── assets/
+    ├── images/             → Hospital images, icons, etc.
+    └── logo.png            → CareNest logo

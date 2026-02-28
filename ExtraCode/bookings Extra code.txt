@@ -1,0 +1,89 @@
+
+.tableContainer {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.4);
+}
+
+/* .headings {} */
+
+.table {
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.headList li {
+    font-weight: 700;
+    font-size: 20px;
+    max-width: 100%;
+    border: 1px solid black;
+    border-bottom: none;
+    padding-inline: 20px;
+}
+
+
+
+        <section class="tableContainer">
+
+            <div class="headings">
+                <ul class="headList table">
+                    <li>Doctor</li>
+                    <li>Date</li>
+                    <li>Time</li>
+                    <li>Action</li>
+                </ul>
+            </div>
+
+        </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// dateInput.addEventListener("change", () => {
+//     const userDate = new Date(dateInput.value);
+//     const today = new Date();
+//     const limit = new Date();
+
+//     limit.setDate(limit.getDate() + 40);
+
+//     if (userDate < today || userDate > limit) {
+//         alert("Date must be between today and next 40 days");
+//         dateInput.value = ""; // reset
+//     }
+// });
+
+
+
+
+// const dateInput = document.getElementById('date');
+
+// const today = new Date();
+// const maxDate = new Date();
+
+// // add 40 days
+// maxDate.setDate(maxDate.getDate() + 40);
+
+// // Convert both to YYYY-MM-DD format
+// const format = (d) => d.toISOString().split("T")[0];
+
+// dateInput.min = format(today);
+// dateInput.max = format(maxDate);
+
+// console.log("Min:", dateInput.min);
+// console.log("Max:", dateInput.max);
+

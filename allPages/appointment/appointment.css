@@ -1,0 +1,121 @@
+/* Highlight the Appoint heading on Navbar when user is on the appointment page______________________ */
+.onAppointmentPage::before {
+  transform: scaleX(1) !important;
+}
+
+/* Disable the whole <main> element if there are more than 5 bookings start's_________________________________ */
+
+.disableMain {
+  cursor: not-allowed;
+}
+
+.disabled_section {
+  opacity: 0.7;
+  pointer-events: none;
+}
+
+/* Disable the whole <main> element if there are more than 5 bookings end's_________________________________ */
+
+.booking_section {
+  padding: 60px 20px;
+  display: flex;
+  justify-content: center
+}
+
+
+.formContainer {
+  background: white;
+  padding: 28px;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(2, 6, 23, 0.06);
+  max-width: 1000px;
+  width: 95%
+}
+
+
+
+.formGroup {
+  margin-bottom: 14px
+}
+
+.formGroup label {
+  display: block;
+  margin-bottom: 6px;
+  font-weight: 600
+}
+
+.formGroup input,
+.formGroup select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #e2e8f0;
+  border-radius: 6px
+}
+
+/* Selected doctor's available days start's_____________________ */
+.daysDiv {
+  min-height: 68px;
+}
+
+.avlblDaysCntnr {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.avlblDays {
+  color: white;
+  font-weight: 600;
+  font-size: medium;
+  padding: 5px 10px;
+  background-color: dodgerblue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.avlblDays:hover {
+  background-color: rgb(0, 99, 197);
+}
+
+.docNameOnAvlblDaysHeading {
+  color: dodgerblue;
+  font-size: larger;
+  font-weight: 500;
+}
+/* Selected doctor's available days end's_____________________ */
+
+select {
+  cursor: pointer;
+}
+
+.confirmBtn {
+  font-size: large;
+  font-weight: 500;
+  background-color: transparent;
+  padding: 4px 15px 15px 15px;
+  padding-bottom: 4px;
+  border: 1px solid dodgerblue;
+  border-radius: 20px;
+  transition: all 0.2s;
+}
+
+
+.confirmBtn:hover {
+  color: white;
+  background-color: dodgerblue;
+  border-color: transparent;
+  transform: scale(1.1);
+}
+
+.confirmBtn:focus {
+  transform: scale(1);
+}
+
+
+/* Alerts/Errors Come From JavaScript____________________ */
+.alertText {
+  color: red;
+  text-decoration: underline;
+}

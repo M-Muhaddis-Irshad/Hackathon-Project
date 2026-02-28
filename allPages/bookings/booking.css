@@ -1,0 +1,90 @@
+/* Highlight the (My Bookings) heading on Navbar when user is on the (My Bookings) page______________________ */
+.onBookAppointmentPage::before {
+    transform: scaleX(1) !important;
+}
+
+main {
+    padding: 20px !important;
+}
+
+.noAppointmentsMsg {
+    text-align: center;
+    color: dodgerblue;
+    padding: 20px;
+    padding-bottom: 30px;
+    border-radius: 10px;
+    filter: drop-shadow(1px 2px 1px cyan);
+    box-shadow: 0px 2px 5px;
+}
+
+table,
+th,
+td {
+    text-align: center;
+    padding: 8px 16px;
+    margin: auto;
+    border: 1px solid lightslategray !important;
+}
+
+th {
+    color: rgb(0, 73, 146);
+    font-size: larger;
+    background-color: skyblue;
+    border: none !important;
+}
+
+td {
+    font-size: large;
+}
+
+.delete {
+    color: white;
+    background-color: red;
+}
+
+td button {
+    color: white;
+    background-color: dodgerblue;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+td button:hover {
+    background-color: rgb(0, 103, 206);
+}
+
+/* @Media Queries Start's_________________________________ */
+@media screen and (max-width: 540px) {
+
+    th,
+    td {
+        font-size: small !important;
+    }
+}
+
+@media screen and (max-width: 470px) {
+
+    th,
+    td {
+        /* font-size: x-small !important; */
+        padding: 8px;
+    }
+
+    main {
+        padding: 20px 5px !important;
+    }
+}
+
+@media screen and (max-width: 385px) {
+
+    th,
+    td {
+        font-size: x-small !important;
+        padding: 8px;
+    }
+
+    main {
+        padding: 20px 10px !important;
+    }
+}
